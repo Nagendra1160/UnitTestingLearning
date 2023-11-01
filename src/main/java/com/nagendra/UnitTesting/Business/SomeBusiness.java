@@ -24,4 +24,12 @@ public class SomeBusiness {
         return Arrays.stream(sds.retrieveAllData()).sum();
     }
 
+    void Method()
+    {
+        System.out.println("Hi Nagendra");
+    }
+    public static void main(String[] args) {
+       new SomeBusiness().Method();
+    }
+
 }
