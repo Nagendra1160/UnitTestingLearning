@@ -1,4 +1,4 @@
-package com.nagendra.UnitTesting;
+package com.nagendra.UnitTesting.Business;
 
 
 import org.junit.jupiter.api.Test;
