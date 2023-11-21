@@ -1,20 +1,55 @@
 package com.learning;
 
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.MethodSource;
+
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
 class ContactManagerTest {
 
     private ContactManager cm;
 
+    @BeforeAll
+    public static void BeforeAllMethod()
+    {
+        System.out.println("Hi before all method should be static as it executed only once");
+    }
+
+    @Test
+    @RepeatedTest(value = 3)
+    public void repeatedTest()
+    {
+        System.out.println("This method is being executed for 5 times");
+    }
+
+    @Disabled //it is both method level & class level
+    @Test
+    public void findMember()
+    {
+        System.out.println("This test case is excluded from being executed");
+    }
+    @AfterAll
+    public static void AfterAllMethod1()
+    {
+        System.out.println("Hi after all method should be static as it executed only once");
+    }
     @BeforeEach
     public void setData()
     {
-      //  System.out.println("Before executing  each test method...this method will execute ");
-         cm=new ContactManager();
+      System.out.println("After executing  each test method...this method will execute ");
+         //cm=new ContactManager();
     }
+
+    @AfterEach
+    public void afterEachTest()
+    {
+        System.out.println("After each test case it will be executed");
+    }
+
     @Test
     @DisplayName("Adding new contact")
     public void addingNewContact()
@@ -42,7 +77,7 @@ class ContactManagerTest {
         //ContactManager cm=new ContactManager();
 
 
-        Assertions.assertThrows(RuntimeException.class,()->cm.addContact("Nagendra","Thoram","0498865432933"));
+        Assertions.assertThrows(RuntimeException.class,()->cm.addContact("Nagendra","Thoram","0987654321"));
     }
 
 
@@ -65,4 +100,31 @@ class ContactManagerTest {
 
         Assertions.assertThrows(RuntimeException.class,()->cm.addContact("Nagendra","Thoram","498654329"));
     }
+
+    @Test
+    @DisplayName("Checking contact exist or not")
+    public void checkContactExitOrNot()
+    {
+        //ContactManager cm=new ContactManager();
+
+        cm.addContact("Nagendra","Thoram","0987654321");
+        Assertions.assertThrows(RuntimeException.class,()->cm.addContact("Nagendra","Thoram","0987654321"));
+    }
+
+    public static List<Integer> intStreamOfEven()
+    {
+        return IntStream.range(1,100).filter(i->i%2==0).boxed().collect(Collectors.toList());
+    }
+
+    @ParameterizedTest
+    @MethodSource("intStreamOfEven")
+    public void findTestOnEven(List<Integer> in)
+    {
+        boolean b=in.stream().allMatch(i->i%2==0);
+      Assertions.assertTrue(b,"valid all");
+    }
+
+
+
+
 }

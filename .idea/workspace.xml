@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="5c8f42f0-2e57-443c-9544-49302ae03e09" name="Changes" comment="" />
-=======
-    <list default="true" id="55d8f7c4-50f0-41ca-9812-9299f54f8ab6" name="Changes" comment="">
+    <list default="true" id="5c8f42f0-2e57-443c-9544-49302ae03e09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/ContactManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/ContactManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/learning/ContactManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/learning/ContactManagerTest.java" afterDir="false" />
     </list>
->>>>>>> refs/remotes/origin/Junit
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,11 +38,9 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2YFicL3LbyX0dMavj0M825ChMKc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -58,7 +57,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Projects/JunitFramework&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ContactManagerTest.validateContactNoLengthStartsWith">
+  <component name="RunManager" selected="JUnit.ContactManagerTest">
     <configuration name="ContactManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitFramework" />
       <extension name="coverage">
@@ -74,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactManagerTest.addingNewContactWithMissingFirstName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactManagerTest.checkContactExitOrNot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitFramework" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +83,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.learning" />
       <option name="MAIN_CLASS_NAME" value="com.learning.ContactManagerTest" />
-      <option name="METHOD_NAME" value="addingNewContactWithMissingFirstName" />
+      <option name="METHOD_NAME" value="checkContactExitOrNot" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactManagerTest.findTestOnEven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learning" />
+      <option name="MAIN_CLASS_NAME" value="com.learning.ContactManagerTest" />
+      <option name="METHOD_NAME" value="findTestOnEven(java.util.List)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,22 +116,6 @@
       <option name="PACKAGE_NAME" value="com.learning" />
       <option name="MAIN_CLASS_NAME" value="com.learning.ContactManagerTest" />
       <option name="METHOD_NAME" value="validateContactNoLength" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactManagerTest.validateContactNoLengthEndsWith" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JunitFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.learning" />
-      <option name="MAIN_CLASS_NAME" value="com.learning.ContactManagerTest" />
-      <option name="METHOD_NAME" value="validateContactNoLengthEndsWith" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ContactManagerTest.validateContactNoLengthStartsWith" />
         <item itemvalue="JUnit.ContactManagerTest" />
-        <item itemvalue="JUnit.ContactManagerTest.validateContactNoLengthEndsWith" />
+        <item itemvalue="JUnit.ContactManagerTest.findTestOnEven" />
+        <item itemvalue="JUnit.ContactManagerTest.validateContactNoLengthStartsWith" />
         <item itemvalue="JUnit.ContactManagerTest.validateContactNoLength" />
-        <item itemvalue="JUnit.ContactManagerTest.addingNewContactWithMissingFirstName" />
+        <item itemvalue="JUnit.ContactManagerTest.checkContactExitOrNot" />
       </list>
     </recent_temporary>
   </component>
