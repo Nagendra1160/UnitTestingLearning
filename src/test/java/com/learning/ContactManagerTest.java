@@ -3,7 +3,9 @@ package com.learning;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -124,6 +126,22 @@ class ContactManagerTest {
       Assertions.assertTrue(b,"valid all");
     }
 
+    @ParameterizedTest
+    @DisplayName("Value Source is used to provide a simple source of values for parameterized tests")
+    @ValueSource(strings ={"aaa","bbdb","ccc"})
+    public void allStringLenSame(String s)
+    {
+        Assertions.assertEquals(3,s.length());
+    }
+
+
+    @ParameterizedTest
+    @DisplayName("Value Source is used to provide a simple source of values for parameterized tests")
+    @CsvSource({"aaa","bbdb","ccc"})
+    public void allStringLenSameCSV(String s)
+    {
+        Assertions.assertTrue(s.startsWith("a"));
+    }
 
 
 

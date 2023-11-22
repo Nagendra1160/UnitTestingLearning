@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8f42f0-2e57-443c-9544-49302ae03e09" name="Changes" comment="">
+    <list default="true" id="55d8f7c4-50f0-41ca-9812-9299f54f8ab6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/ContactManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/ContactManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/learning/ContactManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/learning/ContactManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Projects/JunitFramework&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ContactManagerTest">
+  <component name="RunManager" selected="JUnit.ContactManagerTest.allStringLenSameCSV">
     <configuration name="ContactManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitFramework" />
       <extension name="coverage">
@@ -73,7 +71,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactManagerTest.checkContactExitOrNot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactManagerTest.allStringLenSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitFramework" />
       <extension name="coverage">
         <pattern>
@@ -83,7 +81,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.learning" />
       <option name="MAIN_CLASS_NAME" value="com.learning.ContactManagerTest" />
-      <option name="METHOD_NAME" value="checkContactExitOrNot" />
+      <option name="METHOD_NAME" value="allStringLenSame(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactManagerTest.allStringLenSameCSV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learning" />
+      <option name="MAIN_CLASS_NAME" value="com.learning.ContactManagerTest" />
+      <option name="METHOD_NAME" value="allStringLenSameCSV(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,22 +114,6 @@
       <option name="PACKAGE_NAME" value="com.learning" />
       <option name="MAIN_CLASS_NAME" value="com.learning.ContactManagerTest" />
       <option name="METHOD_NAME" value="findTestOnEven(java.util.List)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContactManagerTest.validateContactNoLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JunitFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.learning" />
-      <option name="MAIN_CLASS_NAME" value="com.learning.ContactManagerTest" />
-      <option name="METHOD_NAME" value="validateContactNoLength" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,18 +137,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContactManagerTest.allStringLenSameCSV" />
+        <item itemvalue="JUnit.ContactManagerTest.allStringLenSame" />
         <item itemvalue="JUnit.ContactManagerTest" />
         <item itemvalue="JUnit.ContactManagerTest.findTestOnEven" />
         <item itemvalue="JUnit.ContactManagerTest.validateContactNoLengthStartsWith" />
-        <item itemvalue="JUnit.ContactManagerTest.validateContactNoLength" />
-        <item itemvalue="JUnit.ContactManagerTest.checkContactExitOrNot" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5c8f42f0-2e57-443c-9544-49302ae03e09" name="Changes" comment="" />
+      <changelist id="55d8f7c4-50f0-41ca-9812-9299f54f8ab6" name="Changes" comment="" />
       <created>1700127811183</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
