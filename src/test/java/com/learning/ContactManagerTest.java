@@ -3,6 +3,7 @@ package com.learning;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -141,6 +142,16 @@ class ContactManagerTest {
     public void allStringLenSameCSV(String s)
     {
         Assertions.assertTrue(s.startsWith("a"));
+    }
+
+
+    @ParameterizedTest
+    @DisplayName("Value Source is used to provide a simple source of values for parameterized tests")
+    @CsvFileSource(resources = "/Data.csv")
+    public void csvSourceFile(String s)
+    {
+        //System.out.println(s.charAt(0));
+        Assertions.assertTrue(Character.isUpperCase(s.charAt(0)));
     }
 
 

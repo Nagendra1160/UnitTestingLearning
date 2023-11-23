@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55d8f7c4-50f0-41ca-9812-9299f54f8ab6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/learning/ContactManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/learning/ContactManagerTest.java" afterDir="false" />
     </list>
@@ -55,7 +56,12 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Projects/JunitFramework&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ContactManagerTest.allStringLenSameCSV">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\JunitFramework\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ContactManagerTest.csvSourceFile">
     <configuration name="ContactManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitFramework" />
       <extension name="coverage">
@@ -103,6 +109,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContactManagerTest.csvSourceFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learning" />
+      <option name="MAIN_CLASS_NAME" value="com.learning.ContactManagerTest" />
+      <option name="METHOD_NAME" value="csvSourceFile(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ContactManagerTest.findTestOnEven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitFramework" />
       <extension name="coverage">
@@ -119,29 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContactManagerTest.validateContactNoLengthStartsWith" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JunitFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.learning" />
-      <option name="MAIN_CLASS_NAME" value="com.learning.ContactManagerTest" />
-      <option name="METHOD_NAME" value="validateContactNoLengthStartsWith" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ContactManagerTest.csvSourceFile" />
         <item itemvalue="JUnit.ContactManagerTest.allStringLenSameCSV" />
         <item itemvalue="JUnit.ContactManagerTest.allStringLenSame" />
         <item itemvalue="JUnit.ContactManagerTest" />
         <item itemvalue="JUnit.ContactManagerTest.findTestOnEven" />
-        <item itemvalue="JUnit.ContactManagerTest.validateContactNoLengthStartsWith" />
       </list>
     </recent_temporary>
   </component>
